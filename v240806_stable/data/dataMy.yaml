@@ -1,0 +1,5 @@
+train: /data/lizr/dataMy/images/train
+val: /data/lizr/dataMy/images/val
+
+nc: 1
+names: ['Tongue']
