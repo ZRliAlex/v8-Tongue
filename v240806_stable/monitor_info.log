@@ -1,0 +1,44 @@
+Time:2024-07-15 14:21:49
+llama2_syn server has been checked.Status:normal
+{'tcm_syndrome': '痰热阻肺证', 'syn_results': [{'name': '痰热阻肺证', 'pv': '1.0000'}, {'name': '脾虚痰湿证', 'pv': '0.9284'}, {'name': '肺脾气虚证', 'pv': '0.9269'}], 'msg': 'ok'}
+第1条Execution time: 0.48117971420288086
+
+Time:2024-07-15 14:23:30
+face_dia server has been checked.Status:normal
+using time: 0.899
+[0.9516377235926355, 0.7180878088955371, 0.9384060051002826, 1.0515371689628947, 0.700458117754439, 0.8460296460705847, 1.0395777465654972, 0.8311183041384764]
+本次共测试1张人脸图片，其中成功处理图片共1张，面色分类预测正确图片共0张。
+
+Time:2024-07-15 14:25:10
+tong_dia server has been checked.Status:normal
+dict_keys(['msg', 'img1', 'img2', 'tong_dia', 'tong_color', 'tong_shape', 'tong_color2', 'color_space', 'color_hist'])
+淡红舌,白苔,薄苔
+[{'name': '淡红舌', 'pv': '82.54'}]
+[{'name': '薄苔', 'pv': '81.26'}]
+[{'name': '白苔', 'pv': '69.57'}]
+[{'RGB_Space_mean': [160.41881104575967, 116.93048402890483, 127.41326638321829], 'RGB_Space_std': [49.55868010083212, 41.65441210433635, 44.50826476775775], 'RGB_Space_distance': [0.925033731591993, 0.7729816629668077, 0.9688062598178159, 0.9254013552205552, 0.8248629072531443, 0.7734215635369657, 0.9691572796627069, 0.8252751537657864], 'RGB_Space_KS-p': [0.36943778779372005, 0.3920750725809973, 0.37579311917094027], 'LAB_Space_mean': [135.63695020351452, 143.10736247631723, 129.19688969376958], 'LAB_Space_std': [45.09119085173479, 10.302040351542, 2.8236772313867333], 'LAB_Space_distance': [0.9244338917286571, 0.8892461992576205, 0.8556677708595946, 0.9172072183546787, 0.8175256062077573, 0.8817311745194564, 0.8478551735486223, 0.8093449067182036], 'LAB_Space_KS-p': [0.35290180709989694, 0.7232202746357355, 0.8378590290744982]}]
+ok
+using time:1.616
+
+Time:2024-07-15 14:26:51
+tong_seg server has been checked.Status:normal
+end_time - start_time = 0.2393479347229004
+ok
+process ending!
+processing one image ending!
+
+Time:2024-07-15 14:28:31
+llama2_dis server has been checked.Status:normal
+{'tcm_disease': '失荣病', 'dis_results': [{'name': '失荣病', 'pv': '1.0000'}, {'name': '内科癌病', 'pv': '0.9050'}, {'name': '失荣病', 'pv': '0.7867'}], 'msg': 'ok'}
+第1条有using time:  1.024958848953247
+
+Time:2024-07-15 14:30:12
+llama2_drug server has been checked.Status:normal
+{'tcm_drugs': '龙葵30g, 茯苓25g, 桔梗10g, 玄参15g, 紫苏梗10g, 鸡内金10g, 净山楂20g, 钩藤15g, 天麻15g, 白芷15g, 燀桃仁10g, 壁虎6g, 甘草泡地龙15g, 甘草片6g, 木香10g, 砂仁10g, 党参片25g, 白术15g', 'msg': 'ok', 'drug_results': [{'name': '龙葵', 'dv': '30.0g'}, {'name': '茯苓', 'dv': '25.0g'}, {'name': '桔梗', 'dv': '10.0g'}, {'name': '玄参', 'dv': '15.0g'}, {'name': '紫苏梗', 'dv': '10.0g'}, {'name': '鸡内金', 'dv': '10.0g'}, {'name': '净山楂', 'dv': '20.0g'}, {'name': '钩藤', 'dv': '15.0g'}, {'name': '天麻', 'dv': '15.0g'}, {'name': '白芷', 'dv': '15.0g'}, {'name': '燀桃仁', 'dv': '10.0g'}, {'name': '壁虎', 'dv': '6.0g'}, {'name': '甘草泡地龙', 'dv': '15.0g'}, {'name': '甘草片', 'dv': '6.0g'}, {'name': '木香', 'dv': '10.0g'}, {'name': '砂仁', 'dv': '10.0g'}, {'name': '党参片', 'dv': '25.0g'}, {'name': '白术', 'dv': '15.0g'}]}
+Execution time: 6.660988807678223
+
+Time:2024-07-15 14:31:53
+llama2_syn server has been checked.Status:normal
+{'tcm_syndrome': '脾虚证', 'syn_results': [{'name': '脾虚证', 'pv': '1.0000'}, {'name': '脾虚痰湿证', 'pv': '0.9691'}, {'name': '痰瘀互结证', 'pv': '0.9590'}], 'msg': 'ok'}
+第1条Execution time: 0.49314045906066895
+

@@ -1,0 +1,19 @@
+[91m ::::::::::     🐅 SEGMENT SERVER START 🐅     ::::::::::[0m
+Traceback (most recent call last):
+  File "./tong_seg_server_v2.py", line 176, in <module>
+    online_server("18041")
+  File "./tong_seg_server_v2.py", line 34, in online_server
+    server = ImageServer(port, None)
+  File "./tong_seg_server_v2.py", line 44, in __init__
+    self.model = segment.Segment()
+  File "/home/medcv/tongue/tongue_server_v8s_24_06_25/segment/segment.py", line 35, in __init__
+    self.model.predict(source=f"{os.getcwd()}/data/initialize.jpg", save=False,  device=self.idx)
+  File "/home/medcv/tongue/tongue_server_v8s_24_06_25/segment/packages/ultralytics/engine/model.py", line 231, in predict
+    return self.predictor.predict_cls(source=source) if is_cli else self.predictor(source=source, stream=stream)
+  File "/home/medcv/tongue/tongue_server_v8s_24_06_25/segment/packages/ultralytics/engine/predictor.py", line 172, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+  File "/home/medcv/miniconda3/envs/torch/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 35, in generator_context
+    response = gen.send(None)
+  File "/home/medcv/tongue/tongue_server_v8s_24_06_25/segment/packages/ultralytics/engine/predictor.py", line 254, in stream_inference
+    ncols=int(os.get_terminal_size().columns * weight)):
+OSError: [Errno 25] Inappropriate ioctl for device
